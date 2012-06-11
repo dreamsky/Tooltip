@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="jquery.tooltip.js"></script>
+<link rel="stylesheet" href="theme.tooltip.css" />
+<script>
+	$(document).ready(function() {
+	$(function() {
+			$(".someClass").tipTip({
+				content :"<span color='red'>信息提示功能</span>",
+				defaultPosition :"top",
+				maxWidth : "auto",
+				edgeOffset : 6,
+				delay : 500			
+			});
+		});
+	});
+</script>
+<title>一客通钱包——用户登录</title>
+</head>
+<body>
+	<div style="margin:0 auto;width:360px;margin-top:200px;font-size:16px">
+	<p>
+		<a href="" class="someClass">链接测试</a>
+		<span id="foo">
+			<img src="http://i.web.com/common/help.png" class="someClass" />
+		</span>
+	</p>
+	</div>
+</body>
+</html>
